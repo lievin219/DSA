@@ -27,3 +27,20 @@ console.log(sum)
 comparation('abceyecba')
 
 
+ function solution(s){
+     let left=0
+     let right=s.length-1
+     let result=''
+
+      while(left<right){
+          result+=s[left]
+          result+=s[right]
+
+          left++
+          right--
+      }
+      if(left===right){
+         return s[left]
+      }
+      return result
+ }
