@@ -4,7 +4,7 @@ function extract(character){
          let first=character[i]
          let second=character[i+1]
           if(first!==undefined){
-             result=first +second
+             result=result+first+second
           }
           else{
              result=first
