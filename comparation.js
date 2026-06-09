@@ -15,9 +15,6 @@ while(left<right){
     if(s[left]===s[right]){
         sum=sum+1
     }
-     left++
-     right--
-
    
 }
   
