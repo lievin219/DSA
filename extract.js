@@ -4,11 +4,13 @@ function extract(character){
          let first=character[i]
          let second=character[i+1]
           if(first!==undefined){
-             result=result+first+second
+             result=result+second+first
           }
           else{
-             result=first
+             result=second
           }
        }
         console.log(result)
 }
+
+extract('abcdf')

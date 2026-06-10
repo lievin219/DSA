@@ -35,20 +35,22 @@ comparation('abceyecba')
 
 // Since s has an odd number of letters, the middle letter 'c' is placed at the end.
 
- function solution(s){
-     let left=0
-     let right=s.length-1
-     let result=''
+//  function solution(s){
+//      let left=0
+//      let right=s.length-1
+//      let result=''
 
-      while(left<right){
-          result+=s[left]
-          result+=s[right]
+//       while(left<right){
+//           result+=s[left]
+//           result+=s[right]
 
-          left++
-          right--
-      }
-      if(left===right){
-         return s[left]
-      }
-      return result
- }
+//           left++
+//           right--
+//       }
+//       if(left===right){
+//          return s[left]
+//       }
+//       return result
+//  }
+
+//  console.log(solution('abcd'))
