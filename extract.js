@@ -3,11 +3,11 @@ function extract(character){
        for(let i=0;i<character.length;i+=2){
          let first=character[i]
          let second=character[i+1]
-          if(first!==undefined){
+          if(second!==undefined){
              result=result+second+first
           }
           else{
-             result=second
+             result=result+first
           }
        }
         console.log(result)
