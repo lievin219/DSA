@@ -33,9 +33,7 @@
 
              result=consonants+vowelValues
              
-            // result=result+characters[i]
-          
-        //    result=result+characters[i]
+       
        }
        console.log(result)
       
